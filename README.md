@@ -13,7 +13,7 @@ This project implements a testable profile card that displays user information i
 
 ```bash
 # Clone the repository
-git clone <https://github.com/Drk-codey/Profile-card>
+git clone https://github.com/Drk-codey/Profile-card
 cd Profile-card
 
 # Open index.html in your browser.
