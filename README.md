@@ -6,6 +6,21 @@ A semantic, accessible, and responsive profile card component built with plain H
 
 This project implements a testable profile card that displays user information including name, bio, avatar, social links, hobbies, and dislikes. Every visible element includes `data-testid` attributes for reliable automated testing.
 
+**Live demo:** https://profile-card-amber-theta.vercel.app/  
+**Repo:** https://github.com/Drk-codey/Profile-card
+
+## Run locally
+
+```bash
+# Clone the repository
+git clone <https://github.com/Drk-codey/Profile-card>
+cd Profile-card
+
+# Open index.html in your browser.
+open index.html        # macOS
+start index.html       # Windows
+```
+
 ## Project Structure
 
 ```
@@ -51,6 +66,13 @@ Profile-card/
 
 - **Mobile** (< 600px): Vertical stack, centered avatar
 - **Desktop** (≥ 600px): Flex row layout, avatar on left, content on right
+
+### Testing & Notes
+- All `data-testid` attributes are present for automated testing
+- Time updates every 100ms for testing accuracy
+- Color contrast verified to meet WCAG AA standards
+- Keyboard navigation tested and working
+- Responsive design tested across breakpoints
 
 ---
 Built for Frontend Wizards Stage 1b.
