@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Wizards | Stage 1B Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <article data-testid="test-profile-card" class="profile-card">
+      <figure class="avatar-container">
+        <img
+          src="img/ogunlade-img.jpg"
+          alt="Headshot of Ogunlade Kayode, a Frontend Developer"
+          data-testid="test-user-avatar"
+          class="user-avatar"
+        />
+      </figure>
+
+      <div class="profile-content">
+        <header>
+          <h2 data-testid="test-user-name" class="user-name">
+            Ogunlade Kayode
+          </h2>
+          <p data-testid="test-user-bio" class="user-bio">
+            Frontend developer passionate about building pixel-perfect
+            interfaces and drinking way too much coffee.
+          </p>
+          <div class="time-container">
+            <span>Current Epoch:</span>
+            <span
+              data-testid="test-user-time"
+              class="time-display"
+              aria-live="polite"
+            ></span>
+          </div>
+        </header>
+
+        <div class="info-sections">
+          <section>
+            <h3>Hobbies</h3>
+            <ul data-testid="test-user-hobbies">
+              <li>Coding</li>
+              <li>Football</li>
+              <li>Hiking</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Dislikes</h3>
+            <ul data-testid="test-user-dislikes">
+              <li>Lagging Devices</li>
+              <li>Slow Internet</li>
+              <li>Cold Coffee</li>
+            </ul>
+          </section>
+        </div>
+
+        <nav>
+          <ul data-testid="test-user-social-links" class="social-links">
+            <li>
+              <a
+                href="https://github.com/Drk-codey"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-github"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/kayode-ogunlade/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-linkedin"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/Drk_codey"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-twitter"
+                >Twitter</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </article>
+
+    <script src="script.js"></script>
+  </body>
+</html>
